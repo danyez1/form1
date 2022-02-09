@@ -1,0 +1,148 @@
+body{
+    display: flex;
+     justify-content: center;
+     }
+
+form{
+    margin: auto;
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border: 1px solid rgb(141, 134, 134);
+   border-radius: 5px;
+
+}
+p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: larger;
+  }
+
+  
+ main{
+      padding: 10px;
+  }
+.containerp{
+    border-bottom: 1px solid rgb(141, 134, 134);
+   padding: 10px;
+    padding-left: 10px;
+    background: rgb(226, 224, 224);
+    color: rgb(7, 7, 7);
+    height: auto;
+    width: auto;
+    margin-top: none;
+   
+}
+.three-columns{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: space-between;
+    width: auto; 
+}
+
+.two-columns{
+    display: flex;
+     justify-content: left;
+    width: auto;
+    align-content: space-between;
+}
+.fields{
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fields1{
+    flex-direction: column;  
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+
+
+.field2{
+   border-style: ridge;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 10px;
+    background: pink;
+    color: brown;
+    border-color:rgb(241, 227, 232) ;
+    height: auto;
+    width: 725px;
+    margin: auto;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+input{
+    border-radius: 5px;
+    border: style 1px;
+    border-color: rgba(206, 211, 216, 0.938);
+   
+}
+p{
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.field3{
+    display: flex;
+    flex-direction: row;
+    background: rgb(145, 139, 139);
+    border-style: none;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    padding: 2px;
+}
+.payment{
+    display: flex;
+    flex-direction: row;
+    align-content:flex-end;
+    justify-content: space-around;
+
+}
+
+.fieldstet{
+    display: flex;
+    flex-direction: row;
+    background: rgb(100, 96, 96);
+    width: auto;
+    justify-content: center;
+   padding: 5px;
+   border-radius: 5px;
+   padding: 10px;
+   align-content: space-around;
+    
+}
+footer{
+    display: flex;
+    flex-direction: row;
+     background: gainsboro;
+    justify-content: right;
+ align-content: flex-end;
+    padding: 10px;
+     width: auto;
+    height: auto;
+    border-top: 1px solid rgb(141, 134, 134);
+}
+.button{
+    border-style: none;
+    background:blue;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.button1{
+    border-style: none;
+    background: rgb(29, 28, 28);
+  color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+span{
+    color: rgb(118, 128, 128);
+}
